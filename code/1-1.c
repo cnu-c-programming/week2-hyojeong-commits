@@ -17,7 +17,5 @@ int main()
     printf(" float : %f\n", var4);
     printf(" exp : %e\n", var4);
     
-
-
     return 0;
 }
