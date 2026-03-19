@@ -2,7 +2,6 @@
 
 int main()
 {
-
     int x, y;
     char op;
 
@@ -14,7 +13,7 @@ int main()
     else if (op == '/') {
         if (y != 0) printf("%d\n", x / y);
         else printf("division by zero\n");
-
+    }
     return 0;
 }
 
