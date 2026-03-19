@@ -7,9 +7,11 @@ int main()
 
     if (a < b) {
         printf("a < b\n");
-    } else {
+    } 
+    else {
         printf("a >= b ???\n");
     }
+   
     return 0;
 }
 
