@@ -18,6 +18,5 @@ int main()
     printf(" exp : %e\n", var4);
     
 
-
     return 0;
 }
