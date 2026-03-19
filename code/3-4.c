@@ -2,7 +2,7 @@
 
 int main()
 {
-int a, b, c;
+    int a, b, c;
 
     a = b = c = 5;
     printf("%d %d %d\n", a, b, c);  
@@ -12,7 +12,7 @@ int a, b, c;
 
     c = a++ + ++b;
     printf("%d %d %d\n", a, b, c);  
-    return 0;
     
+    return 0;  
 }
 
