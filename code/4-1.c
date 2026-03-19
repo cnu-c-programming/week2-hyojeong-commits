@@ -2,18 +2,29 @@
 
 int main()
 {
-    int x, y;
-    char op;
+    int a, b;
+    char c;
+    scanf("%d %d %c", &a, &b, &c);
+    int result = 0;
 
-    scanf("%d %d %c", &x, &y, &op);
-
-    if (op == '+') printf("%d\n", x + y);
-    else if (op == '-') printf("%d\n", x - y);
-    else if (op == '*') printf("%d\n", x * y);
-    else if (op == '/') {
-        if (y != 0) printf("%d\n", x / y);
-        else printf("division by zero\n");
+    switch (c)
+    {
+    case '+':
+        result = a + b;
+        break;
+    case '-':
+        result = a - b;
+        break;
+    case '*':
+        result = a * b;
+        break;
+    case '/':
+        result = a / b;
+        break;
     }
+
+    printf("%d\n", result);
+    
     return 0;
 }
 
