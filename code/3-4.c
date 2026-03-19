@@ -5,13 +5,13 @@ int main()
 int a, b, c;
 
     a = b = c = 5;
-    printf("%d %d %d\n", a, b, c);  // 5 5 5
+    printf("%d %d %d\n", a, b, c);  
 
     a = 2 + 3 * 4;
-    printf("%d %d %d\n", a, b, c);  // 14 5 5
+    printf("%d %d %d\n", a, b, c);  
 
     c = a++ + ++b;
-    printf("%d %d %d\n", a, b, c);  // 15 6 20
+    printf("%d %d %d\n", a, b, c);  
     return 0;
     return 0;
 }
